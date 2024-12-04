@@ -20,10 +20,10 @@ public class MatematikaCanggih extends Matematika{
         modulusDouble = a % b;
     }
     void setModulus (int a, int b, int c){
-        modulus = a % b % c;
+        modulus = (a % b) % c;
     }
     void setModulus (double a, double b, double c){
-        modulusDouble = a % b % c;
+        modulusDouble = (a % b) % c;
     }
     
     int getModulus(){
